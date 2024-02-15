@@ -1,0 +1,49 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+    margin: 25px;
+    background-color: rgb(1, 42, 72);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color:rgb(240, 242, 251)
+  }
+
+  /*---------Styling Links------------*/
+
+  a:link {
+    color: rgb(225, 226, 246);
+  }
+  
+  a:visited {
+    colop: white;
+  }
+
+  a:hover {
+    color:hotpink
+  }
+
+  /*-------Styling Nav Bar---------*/
+
+  ul {
+   list-style-type: none;
+   margin-right: 0;
+   padding: 15px;
+   overflow: hidden;
+   background-color: black;
+
+  }
+
+  li {
+    float:right
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-size: large;
+  }
