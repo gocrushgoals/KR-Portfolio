@@ -1,13 +1,47 @@
-/* Applies to the entire body of the HTML document (except where overridden by more specific
-selectors). */
+/* -------Body----- */
 body {
     margin: 25px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: rgb(1, 42, 72);
     font-family: arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color:rgb(240, 242, 251)
   }
 
+    /*-------Nav Bar---------*/
+   
+    ul {
+        list-style-type: none;
+        margin-right: 0;
+        padding: 15px;
+        overflow: hidden;
+        background-color: black;
+     
+       }
+     
+       li {
+         float:right
+       }
+     
+       li a {
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 15px;
+         padding-top: 3px;
+         padding-bottom: 3px;
+         text-decoration: none;
+         font-size: large;
+         border-right: 1px solid #bbb;
+         border-left: 1px solid #bbb;
+       }
+     
+       .active {
+         background-color: grey;
+       }
+  
   /*---------Styling Links------------*/
 
   a:link {
@@ -22,28 +56,15 @@ body {
     color:hotpink
   }
 
-  /*-------Styling Nav Bar---------*/
 
-  ul {
-   list-style-type: none;
-   margin-right: 0;
-   padding: 15px;
-   overflow: hidden;
-   background-color: black;
 
-  }
 
-  li {
-    float:right
-  }
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    text-decoration: none;
-    font-size: large;
+/*--------Footer-------*/
+
+ 
+  footer {
+    font-size: 10px;
+    padding: 20px;
+    text-align: center; 
   }
