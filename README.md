@@ -34,7 +34,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
  To install this application, clone the code into your terminal for the respective repository.
 
 ## Usage
-Visit the link to the webpage here https://gocrushgoals.github.io/Challenge-One/
+Visit the link to the webpage here https://gocrushgoals.github.io/Professional-Portfolio/
 Use the navigation bar to view the selected sections of the webpage.
 
 ## Credits
