@@ -12,7 +12,7 @@ body {
 
     /*-------Nav Bar---------*/
    
-    ul {
+    nav ul {
         list-style-type: none;
         margin-right: 0;
         padding: 15px;
@@ -56,9 +56,18 @@ body {
     color:hotpink
   }
 
+/*------images------*/
 
+section {
+    margin-bottom: 10px;
+    padding: 50px;
+    height: 300px;
 
+}
 
+.feature img {
+    max-height: 200px;
+}
 
 /*--------Footer-------*/
 
