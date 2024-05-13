@@ -1,79 +1,131 @@
-/* -------Body----- */
+/* Custom CSS for Portfolio Website */
+
+/* Global Styles */
 body {
-    margin: 25px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: rgb(1, 42, 72);
-    font-family: arial, sans-serif;
-    font-size: 16px;
-    color:rgb(240, 242, 251)
-  }
-
-    /*-------Nav Bar---------*/
-   
-    nav ul {
-        list-style-type: none;
-        margin-right: 0;
-        padding: 15px;
-        overflow: hidden;
-        background-color: black;
-     
-       }
-     
-       li {
-         float:right
-       }
-     
-       li a {
-         display: block;
-         color: white;
-         text-align: center;
-         padding: 15px;
-         padding-top: 3px;
-         padding-bottom: 3px;
-         text-decoration: none;
-         font-size: large;
-         border-right: 1px solid #bbb;
-         border-left: 1px solid #bbb;
-       }
-     
-       .active {
-         background-color: grey;
-       }
-  
-  /*---------Styling Links------------*/
-
-  a:link {
-    color: rgb(225, 226, 246);
-  }
-  
-  a:visited {
-    color: white;
-  }
-
-  a:hover {
-    color:hotpink
-  }
-
-/*------images------*/
-
-section {
-    margin-bottom: 10px;
-    padding: 50px;
-    height: 300px;
-
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
 }
 
-.feature img {
-    max-height: 200px;
+.container {
+  max-width: 960px;
+  margin: 0 auto; /* Center the container */
+  padding: 30px 15px;
 }
 
-/*--------Footer-------*/
+/* Navbar Styles */
+.navbar {
+  background-color: #443850 !important; /* Deep Purple */
+}
 
- 
-  footer {
-    font-size: 10px;
-    padding: 20px;
-    text-align: center; 
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #92dce5 !important; /* Mint */
+}
+
+/* Section Styles */
+h2 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #443850; /* Deep Purple */
+}
+
+.card {
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #443850; /* Deep Purple */
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+/* Project Image Styles */
+.portfolio-img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-img:hover {
+  transform: scale(1.05);
+}
+
+/* Contact Section Styles */
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.contact-info li i {
+  margin-right: 10px;
+  color: #92dce5; /* Mint */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #443850; /* Deep Purple */
+  color: #ffffff;
+  padding: 20px 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #92dce5; /* Mint */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
   }
+}
