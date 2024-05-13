@@ -1,85 +1,112 @@
 <!DOCTYPE html>
-<html lang="en"
-
+<html lang="en">
 <head>
-    <title>Kristi Rowland Portfolio</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width-device-width, initial-scale1"/>
-    <link rel="stylesheet" href="./Assets/css/style.css"/>
-</head>
- 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kristi Rowland Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+
+  </head>
 <body>
-<!-- HEADER-->
-    <header> 
-    <h3>Hi, my name is</h3>
-    <h1>Kristi Rowland</h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Kristi Rowland</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#web-projects">Web Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mobile-projects">Mobile Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#opensource-projects">Open Source Contributions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-</header>
+  <div id="about" class="container mt-5">
+    <h2>About Me</h2>
+    <p>Emerging full stack web developer with a background in education, enrolled in The Ohio State University Full Stack Web Development Bootcamp to transition into the field. Currently building skills in responsive web design and back-end applications utilizing JavaScript, CSS, Node.js, and MySQL. Dedicated to continuous growth and collaboration, eager to embrace new challenges, learn from peers, and contribute to team success through open communication and mutual support.</p>
+  </div>
 
-<!--Navbar-->
-<nav>
+  <div id="web-projects" class="container mt-5">
+    <h2>Web Projects</h2>
+    <div class="row">
+      <!-- Add your web development projects here -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top portfolio-img" alt="Web Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Web Project 1</h5>
+            <p class="card-text">Description of Web Project 1</p>
+            <a href="#" class="btn btn-primary">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="mobile-projects" class="container mt-5">
+    <h2>Mobile Projects</h2>
+    <div class="row">
+      <!-- Add your mobile app projects here -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top portfolio-img" alt="Mobile Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Mobile Project 1</h5>
+            <p class="card-text">Description of Mobile Project 1</p>
+            <a href="#" class="btn btn-primary">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="opensource-projects" class="container mt-5">
+    <h2>Open Source Contributions</h2>
+    <div class="row">
+      <!-- Add your open-source contributions here -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top portfolio-img" alt="Contribution 1">
+          <div class="card-body">
+            <h5 class="card-title">Contribution 1</h5>
+            <p class="card-text">Description of Contribution 1</p>
+            <a href="#" class="btn btn-primary">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="container mt-5">
+    <h2>Contact Me</h2>
+    <p>You can reach me at:</p>
     <ul>
-        <li><a href="#Work">Work</a></li>
-        <li><a href="#Services">Services</a></li>
-        <li><a href="#Contact">Contact</a></li>                 
+      <li>Email: GoCrushGoals@gmail.com</li>
     </ul>
+  </div>
 
-</nav>
-<!--Main-->
-<main>
-    <section>
-        <h2>Web Design</h2>
-
-        <p>Please visit the navigation links to learn more about my experience, services, and contact information.</p>
-    </section>
-    
-    <section id="Contact" class="feature">
-       
-        <h3>Contact</h3>
-        <img src="Assets/images/contact.jpg" 
-            alt="Picture of a cellphone with social media applications"
-            class="float-left"/> 
-            
-        <p>
-            Here is where I will list my contact information.
-        </p>
-        
-    </section>
-
-    <section id="Work" class="feature">
-       
-        <h3>Work</h3>
-        <img src="Assets/images/work.jpg" 
-            alt="desktop workspace pictured"
-            class="float-left"/> 
-            
-        <p>
-            Here is where I will display recent work.
-        </p>
-        
-    </section>
-</section>
-
-<section id="Services" class="feature">
-   
-    <h3>Services</h3>
-    <img src="Assets/images/services.jpg" 
-        alt="Photo of a person assisting someone with a webpage"
-        class="float-left"/> 
-        
-    <p>
-        Here is where I will list services that I offer.
-    </p>
-    
-</section>
-
-</main>
-
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
-<!--Footer-->
-<footer>
-Updated February 2024
-
-</footer>
+</html>
 
