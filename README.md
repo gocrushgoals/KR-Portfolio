@@ -4,7 +4,7 @@
 
 Deployed a wepage portfolio to showcase skills and talents to employers looking to fill a part-time or full-time position. This portfolio highlights my strongest work and the processes behind it
 
-Screenshot of page: https://github.com/gocrushgoals/Professional-Portfolio/blob/f95b0ef9b25f934ee161bbe546c5230ffce83352/Assets/images/Webpage.png 
+Screenshot of page: 
 
 # User Story
 
@@ -34,7 +34,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
  To install this application, clone the code into your terminal for the respective repository.
 
 ## Usage
-Visit the link to the webpage here https://gocrushgoals.github.io/Professional-Portfolio/
+Visit the link to the webpage here https://gocrushgoals.github.io/KR-Portfolio/
 Use the navigation bar to view the selected sections of the webpage.
 
 ## Credits
