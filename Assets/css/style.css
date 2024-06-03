@@ -19,16 +19,8 @@ body {
   background-color: #443850 !important; /* Deep Purple */
 }
 
-/* .navbar-nav {
-  width: 100%;
-  justify-content: space-around;
-}
-.navbar-nav .nav-item {
-  list-style: none;
-} */
-
 .navbar-brand {
-  font-size: 1.5rem;
+  font-size: x-large;
   color: #ffffff;
 }
 
